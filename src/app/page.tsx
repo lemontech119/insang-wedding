@@ -4,7 +4,9 @@ import PhotoCarousel from "@/components/PhotoCarousel";
 const WEDDING_INFO = {
   // 사진: public/wedding/ 폴더에 1.jpg, 2.jpg, 3.jpg 넣고 아래 주석 해제
   // images: ["/wedding/1.jpg", "/wedding/2.jpg", "/wedding/3.jpg"],
-  images: ["/wedding/3.jpeg", "/wedding/4.jpeg", "/wedding/5.jpeg"],
+  images: ["/wedding/3.jpeg", "/wedding/4.jpeg", "/wedding/5.jpeg", "/wedding/6.jpeg", "/wedding/7.jpeg",
+    "/wedding/8.jpeg", "/wedding/9.jpeg","/wedding/10.jpeg", "/wedding/11.jpeg", "/wedding/12.jpeg"
+  ],
 
   mapUrl: "https://map.kakao.com/?q=낙성대공원",
 };
@@ -29,7 +31,7 @@ export default function WeddingInvitationPage() {
             Holly Gregory
           </p>
         </div>
-        <p className="text-center text-stone-400 text-xs mt-3">2026</p>
+        <p className="text-center text-stone-400 text-xs mt-3 mr-5">2026</p>
       </section>
 
       {/* 2. 사진 캐러셀 */}
@@ -44,11 +46,11 @@ export default function WeddingInvitationPage() {
         </h1>
         <div className="flex justify-center items-center gap-4 mt-6">
           <p className="font-[var(--font-serif)] text-xl font-medium text-stone-800">
-            Holly Gregory
+            Insang Cho
           </p>
           <span className="text-xl text-stone-400">×</span>
           <p className="font-[var(--font-serif)] text-xl font-medium text-stone-800">
-            Insang Cho
+            Holly Gregory
           </p>
         </div>
       </section>
@@ -78,7 +80,7 @@ export default function WeddingInvitationPage() {
           <div className="text-center">
             <p className="text-stone-500 text-sm mb-2">신부 측 혼주</p>
             <p className="font-[var(--font-serif)] text-stone-800">
-              Sally Gregory · John Gregory
+            John Gregory · Sally Gregory 
             </p>
           </div>
         </div>
@@ -92,7 +94,7 @@ export default function WeddingInvitationPage() {
               <span>📍</span> 장소
             </p>
             <p className="font-[var(--font-serif)] text-stone-800 font-medium">
-              낙성대공원
+            낙성대 전통혼례식장
             </p>
             <p className="text-stone-600 text-sm mt-1">
               (서울특별시 관악구)
@@ -103,7 +105,7 @@ export default function WeddingInvitationPage() {
               <span>📅</span> 일시
             </p>
             <p className="font-[var(--font-serif)] text-stone-800 font-medium">
-              2026년 4월 18일
+              2026년 4월 18일 11시
             </p>
           </div>
           <a
@@ -147,9 +149,8 @@ export default function WeddingInvitationPage() {
               </p>
               <p className="text-stone-600 text-sm leading-relaxed">
                 낙성대공원 정류장 하차<br />
-                간선: 2, 21<br />
-                지선: 5413, 5414<br />
-                도보 약 3–5분
+                관악02-1, 관악02-2 <br />
+                타는 곳 (낙성대역 4번 출구 GS칼텍스 지나서 왼쪽 골목)
               </p>
             </div>
             <div className="space-y-1">
