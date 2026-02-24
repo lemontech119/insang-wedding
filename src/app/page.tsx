@@ -8,7 +8,7 @@ const WEDDING_INFO = {
     "/wedding/8.jpeg", "/wedding/9.jpeg","/wedding/10.jpeg", "/wedding/11.jpeg", "/wedding/12.jpeg"
   ],
 
-  mapUrl: "https://map.kakao.com/?q=낙성대공원",
+  mapUrl: "https://map.kakao.com/?q=%EB%82%99%EC%84%B1%EB%8C%80%20%EA%B4%80%EC%95%85%EB%AC%B8%ED%99%94%EC%98%88%EC%A0%88%EC%9B%90",
 };
 
 // ================================================================
@@ -20,7 +20,7 @@ export default function WeddingInvitationPage() {
       <section className="w-full max-w-[500px] mx-auto px-6 py-10 bg-[#f5f3ef]">
         <div className="flex justify-between items-center gap-4">
           <p className="text-stone-600 text-sm font-medium shrink-0">
-            Insang Cho
+            조인상
           </p>
           <div className="flex flex-col items-center">
             <span className="text-stone-500 text-2xl font-light tracking-widest">04</span>
@@ -42,11 +42,11 @@ export default function WeddingInvitationPage() {
       {/* 3. 결혼합니다 */}
       <section className="px-6 pt-12 pb-8 max-w-[500px] mx-auto">
         <h1 className="text-center font-[var(--font-serif)] text-2xl font-semibold text-stone-800 tracking-tight">
-          결혼합니다
+          초대합니다
         </h1>
         <div className="flex justify-center items-center gap-4 mt-6">
           <p className="font-[var(--font-serif)] text-xl font-medium text-stone-800">
-            Insang Cho
+            조인상
           </p>
           <span className="text-xl text-stone-400">×</span>
           <p className="font-[var(--font-serif)] text-xl font-medium text-stone-800">
@@ -74,13 +74,13 @@ export default function WeddingInvitationPage() {
           <div className="text-center">
             <p className="text-stone-500 text-sm mb-2">신랑 측 혼주</p>
             <p className="font-[var(--font-serif)] text-stone-800">
-              조한국 · 신길호
+              조한국 <br /> 신길호
             </p>
           </div>
           <div className="text-center">
             <p className="text-stone-500 text-sm mb-2">신부 측 혼주</p>
             <p className="font-[var(--font-serif)] text-stone-800">
-            John Gregory · Sally Gregory 
+            John Gregory <br /> Sally Gregory 
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function WeddingInvitationPage() {
               <span>📅</span> 일시
             </p>
             <p className="font-[var(--font-serif)] text-stone-800 font-medium">
-              2026년 4월 18일 11시
+              2026년 4월 18일 토요일 11시 
             </p>
           </div>
           <a
@@ -181,7 +181,17 @@ export default function WeddingInvitationPage() {
           <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-stone-100 space-y-5">
             <p className="text-stone-500 text-xs text-center">계좌번호</p>
             <div className="space-y-4">
-              <div className="flex justify-between items-start gap-4">
+              <div className="border-t border-stone-100 pt-4 flex justify-between items-start gap-4">
+                <p className="font-[var(--font-serif)] text-stone-800 font-medium shrink-0">
+                  조인상
+                </p>
+                <div className="text-right text-sm text-stone-600">
+                  <p>농협은행</p>
+                  <p className="font-mono mt-1">565-02-083391</p>
+                </div>
+              </div>
+
+              <div className="border-t border-stone-100 pt-4 flex justify-between items-start gap-4">
                 <p className="font-[var(--font-serif)] text-stone-800 font-medium shrink-0">
                   신길호
                 </p>
@@ -190,6 +200,7 @@ export default function WeddingInvitationPage() {
                   <p className="font-mono mt-1">044-12-062231</p>
                 </div>
               </div>
+
               <div className="border-t border-stone-100 pt-4 flex justify-between items-start gap-4">
                 <p className="font-[var(--font-serif)] text-stone-800 font-medium shrink-0">
                   조한국
