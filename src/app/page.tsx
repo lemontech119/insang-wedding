@@ -20,7 +20,7 @@ export default function WeddingInvitationPage() {
       <section className="w-full max-w-[500px] mx-auto px-6 py-10 bg-[#f5f3ef]">
         <div className="flex justify-between items-center gap-4">
           <p className="text-stone-600 text-sm font-medium shrink-0">
-            조인상
+            <pre>조인상    </pre> 
           </p>
           <div className="flex flex-col items-center">
             <span className="text-stone-500 text-2xl font-light tracking-widest">04</span>
