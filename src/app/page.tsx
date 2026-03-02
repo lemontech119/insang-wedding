@@ -183,16 +183,6 @@ export default function WeddingInvitationPage() {
             <div className="space-y-4">
               <div className="border-t border-stone-100 pt-4 flex justify-between items-start gap-4">
                 <p className="font-[var(--font-serif)] text-stone-800 font-medium shrink-0">
-                  조인상
-                </p>
-                <div className="text-right text-sm text-stone-600">
-                  <p>농협은행</p>
-                  <p className="font-mono mt-1">565-02-083391</p>
-                </div>
-              </div>
-
-              <div className="border-t border-stone-100 pt-4 flex justify-between items-start gap-4">
-                <p className="font-[var(--font-serif)] text-stone-800 font-medium shrink-0">
                   신길호
                 </p>
                 <div className="text-right text-sm text-stone-600">
@@ -208,6 +198,15 @@ export default function WeddingInvitationPage() {
                 <div className="text-right text-sm text-stone-600">
                   <p>국민은행</p>
                   <p className="font-mono mt-1">503202-01-196571</p>
+                </div>
+              </div>
+              <div className="border-t border-stone-100 pt-4 flex justify-between items-start gap-4">
+                <p className="font-[var(--font-serif)] text-stone-800 font-medium shrink-0">
+                  조인상
+                </p>
+                <div className="text-right text-sm text-stone-600">
+                  <p>농협은행</p>
+                  <p className="font-mono mt-1">565-02-083391</p>
                 </div>
               </div>
             </div>
