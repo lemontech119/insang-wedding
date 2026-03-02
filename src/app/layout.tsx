@@ -15,7 +15,7 @@ const notoSerif = Noto_Serif_KR({
 
 export const metadata: Metadata = {
   title: "청첩장",
-  description: "모바일 청첩장",
+  description: "인상 ♡ 홀리의 모바일 청첩장입니다.",
 };
 
 export const viewport: Viewport = {

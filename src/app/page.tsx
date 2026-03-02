@@ -97,7 +97,7 @@ export default function WeddingInvitationPage() {
             낙성대 전통혼례식장
             </p>
             <p className="text-stone-600 text-sm mt-1">
-              (서울특별시 관악구)
+              (서울시 관악구 낙성대로 3길, 45)
             </p>
           </div>
           <div className="border-t border-stone-100 pt-6">
@@ -128,10 +128,10 @@ export default function WeddingInvitationPage() {
           <div className="bg-white/80 rounded-2xl p-6 shadow-sm border border-stone-100 space-y-5">
             <div>
               <p className="font-[var(--font-serif)] text-stone-800 font-medium">
-                낙성대공원
+                낙성대 전통혼례식장
               </p>
               <p className="text-stone-600 text-sm mt-1">
-                서울특별시 관악구 낙성대로 77
+                서울시 관악구 낙성대로 3길, 45
               </p>
             </div>
             <div className="space-y-1">
